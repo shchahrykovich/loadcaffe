@@ -5,7 +5,7 @@ SET(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake" "${CMAKE_MODULE_PATH}"
 
 FIND_PACKAGE(Torch REQUIRED)
 FIND_PACKAGE(Protobuf REQUIRED
-	HINTS "C:\Program Files (x86)\protobuf" "C:\Program Files\protobuf"
+	HINTS "C:/Program Files (x86)/protobuf" "C:/Program Files/protobuf"
 )
 
 INCLUDE_DIRECTORIES("${Torch_INSTALL_INCLUDE}/TH" ${PROTOBUF_INCLUDE_DIRS})
