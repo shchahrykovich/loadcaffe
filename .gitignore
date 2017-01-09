@@ -28,3 +28,6 @@
 *.app
 
 build/
+CMakeFiles/
+
+CMakeCache.txt
